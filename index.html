@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/axios@latest"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/ng2-formobject@0.1.10/dist/ng2-formobject.min.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/form-data@4.0.0/lib/browser.min.js"></script> -->
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <!-- <form id="myform" name="myform" onsubmit="event.preventDefault(); return removebg()"></form> -->
+    <form id="myform" name="myform" onsubmit="return removebg(event)">
+        <div>
+            <label for="file">File: </label>
+            <input type="file" name="file" id="fileInput" required>
+        </div>
+        <input type="submit" value="Eliminar fondo">
+    </form>
+    <div>
+        <img id="selectedImage" width="250px" alt="selected image">
+        <img id="returnedImage" width="250px" alt="returned image">
+        <div>
+            <button id="downloadbtn" class="hidden">Descargar</button>
+        </div>
+    </div>
+    
+</body>
+</html>
+<!-- <form id="myform" name="myform" onsubmit="event.preventDefault(); return setAction()">
+    <div>
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name" required>
+    </div>
+    <div>
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" required min="0" max="100" value="0">
+    </div>
+    <input type="submit" value="Enviar">
+</form> -->

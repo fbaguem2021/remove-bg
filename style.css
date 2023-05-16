@@ -1,0 +1,20 @@
+label{display:inline-block;width:50px;}
+input[type=file] {
+    border: 1px solid #8f8f9d;
+    border-radius: 5px;
+}
+input[type=submit] {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#downloadbtn {
+    margin-top: 10px;
+}
+img {
+    border: 0.5px dashed gray;
+    width: 250px;;
+    max-width: 250px;
+}
+.hidden {
+    display: none;
+}
