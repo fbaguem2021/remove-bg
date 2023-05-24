@@ -1,3 +1,16 @@
+html, body {
+    height: 100%;
+}
+.card {
+    height: fit-content !important
+}
+#selectedImage, #returnedImage {
+    width: 250px !important;
+    height: 250px !important;
+    border: none;
+    padding: none;
+    margin-top: 1rem;
+}
 label{display:inline-block;width:50px;}
 input[type=file] {
     border: 1px solid #8f8f9d;
@@ -16,5 +29,5 @@ img {
     max-width: 250px;
 }
 .hidden {
-    display: none;
+    display: none !important;
 }
