@@ -20,9 +20,6 @@ input[type=submit] {
     margin-top: 5px;
     margin-bottom: 10px;
 }
-#downloadbtn {
-    margin-top: 10px;
-}
 img {
     border: 0.5px dashed gray;
     width: 250px;;
